@@ -3,7 +3,9 @@ import "./navbar.css";
 
 const Navbar = ({ currentSelect, setCurrentSelect }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(localStorage.getItem('theme') || "light");
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem("theme") || "light"
+  );
   const handleMenuOpen = () => {
     setIsOpen(!isOpen);
   };
@@ -44,7 +46,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
         >
           <svg
             data-toggle-icon="moon"
-            className={`${darkMode === "light" ? '' : 'hidden'} w-4 h-4`}
+            className={`${darkMode === "light" ? "" : "hidden"} w-4 h-4`}
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +55,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
           </svg>
           <svg
             data-toggle-icon="sun"
-            className={`${darkMode === "dark" ? '' : 'hidden'} w-4 h-4`}
+            className={`${darkMode === "dark" ? "" : "hidden"} w-4 h-4`}
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
