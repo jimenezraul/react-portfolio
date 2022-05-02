@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import "./App.css";
 import Footer from "./component/Footer";
 import Navbar from "./component/Navbar";
+import AboutMe from "./component/AboutMe";
 
 function App() {
   const [currentSelect, setCurrentSelect] = useState("About Me");
 
   return (
-    <div className="App flex flex-col min-h-screen justify-between">
+    <div className="dark:bg-gray-900 flex flex-col min-h-screen justify-between">
       <Navbar
         currentSelect={currentSelect}
         setCurrentSelect={setCurrentSelect}
       />
-      <h1>{currentSelect}</h1>
+      {currentSelect === "About Me" && <AboutMe />}
       <Footer />
     </div>
   );
