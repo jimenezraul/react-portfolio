@@ -2,7 +2,7 @@
 
 This is a portfolio built with React and tailwindsCSS. Includes About Me, Projects, Contact Me, and Resume, fully responsive and mobile friendly. Also includes dark mode.
 
-## Click [here](https://jimenezraul.github.io/react-portfolio/) to view deployed portfolio.
+## Click [here](https://steady-trifle-a7e022.netlify.app/) to view deployed portfolio.
 
 ## Table of Contents
 
