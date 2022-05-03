@@ -3,6 +3,8 @@ import ims from "../../assets/img/ims.png";
 import coinhiz from "../../assets/img/coinhiz.jpg";
 import runbuddy from "../../assets/img/run-buddy.jpg";
 import myportfolio from "../../assets/img/about-dark.png";
+import thetechblog from "../../assets/img/thetechblog.png";
+import quiz from "../../assets/img/quiz.png";
 
 const Portfolio = () => {
   const portfolio = [
@@ -21,7 +23,25 @@ const Portfolio = () => {
         "MySQL",
       ],
       github_link: "https://github.com/jimenezraul/IMS",
-      live_link: "ims-inventory-s.herokuapp.com/",
+      live_link: "https://ims-inventory-s.herokuapp.com/",
+    },
+    {
+      title: "My Portfolio",
+      description:
+        "This is my portfolio built with React and tailwindsCSS. Includes About Me, Projects, Contact Me, and Resume, fully responsive and mobile friendly. Also includes dark mode.",
+      image: myportfolio,
+      technologies: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS"],
+      github_link: "https://github.com/jimenezraul/react-portfolio",
+      live_link: "https://steady-trifle-a7e022.netlify.app/",
+    },
+    {
+      title: "The Tech Blog",
+      description:
+        "This is a tech blog created using MVC architecture. It is a simple blog that allows users to create, edit, and delete posts. It also allows users to comment on posts.",
+      image: thetechblog,
+      technologies: ["HTML5", "CSS3", "JavaScript", "Express", "MVC", "MySQL", "Handlebars"],
+      github_link: "https://github.com/jimenezraul/mvc-tech-blog",
+      live_link: "https://peaceful-hollows-93155.herokuapp.com/",
     },
     {
       title: "CoinHiz",
@@ -40,13 +60,17 @@ const Portfolio = () => {
       live_link: "https://jimenezraul.github.io/coinhiz/",
     },
     {
-      title: "My Portfolio",
+      title: "Timed Code Quiz",
       description:
-        "This is my portfolio built with React and tailwindsCSS. Includes About Me, Projects, Contact Me, and Resume, fully responsive and mobile friendly. Also includes dark mode.",
-      image: myportfolio,
-      technologies: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS"],
-      github_link: "https://github.com/jimenezraul/react-portfolio",
-      live_link: "steady-trifle-a7e022.netlify.app/",
+        "This is a timed quiz that tests your knowledge of JavaScript fundamentals. On start, you will have 75 seconds and every wrong answer will penalize you by 10 seconds. On finish, you will be given the time left as a score. Once you input your initials, your score will be saved to a local storage as a high score and you will be redirected to the high score page.",
+      image: quiz,
+      technologies: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+      ],
+      github_link: "https://github.com/jimenezraul/web-apis-timed-quiz",
+      live_link: "https://jimenezraul.github.io/web-apis-timed-quiz/",
     },
     {
       title: "Run Buddy",
