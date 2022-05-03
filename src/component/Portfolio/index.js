@@ -2,6 +2,7 @@ import React from "react";
 import ims from "../../assets/img/ims.png";
 import coinhiz from "../../assets/img/coinhiz.jpg";
 import runbuddy from "../../assets/img/run-buddy.jpg";
+import myportfolio from "../../assets/img/about-dark.png";
 
 const Portfolio = () => {
   const portfolio = [
@@ -10,7 +11,15 @@ const Portfolio = () => {
       description:
         "This Inventory Management System application will allow a company with large amount of products to manage their inventory. It will allow employees to add, update, delete and view Categories, Supplier, Products and Inventory. In the main dashboard, it will display all categories with all product and each will have a button to view inventory. In the Product section, it will display the product information with total quantity in stock and total inventory value. Also it will display the supplier info, stock locations and quantity for the selected product.",
       image: ims,
-      technologies: ["HTML5", "Bootstrap", "MVC", "Handlebars", "NodeJS", "Express", "MySQL"],
+      technologies: [
+        "HTML5",
+        "Bootstrap",
+        "MVC",
+        "Handlebars",
+        "NodeJS",
+        "Express",
+        "MySQL",
+      ],
       github_link: "https://github.com/jimenezraul/IMS",
       live_link: "ims-inventory-s.herokuapp.com/",
     },
@@ -30,6 +39,15 @@ const Portfolio = () => {
       live_link: "https://jimenezraul.github.io/coinhiz/",
     },
     {
+      title: "My Portfolio",
+      description:
+        "This is my portfolio built with React and tailwindsCSS. Includes About Me, Projects, Contact Me, and Resume, fully responsive and mobile friendly. Also includes dark mode.",
+      image: myportfolio,
+      technologies: ["HTML5", "CSS3", "JavaScript", "React", "TailwindCSS"],
+      github_link: "https://github.com/jimenezraul/react-portfolio",
+      live_link: "steady-trifle-a7e022.netlify.app/",
+    },
+    {
       title: "Run Buddy",
       description: "A website that offers fitness training services.",
       image: runbuddy,
@@ -44,7 +62,10 @@ const Portfolio = () => {
       <div className="container mx-auto flex flex-col flex-grow justify-center">
         <div className="flex flex-row flex-wrap justify-center">
           {portfolio.map((item, index) => (
-            <div key={index} className="flex justify-center flex-row flex-wrap flex-auto text-gray-600 dark:text-gray-400 pb-4">
+            <div
+              key={index}
+              className="flex justify-center flex-row flex-wrap flex-auto text-gray-600 dark:text-gray-400 pb-4"
+            >
               <div className="flex w-11/12 justify-center">
                 <div className="md:max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <img className="rounded-t-lg" src={item.image} alt=""></img>
