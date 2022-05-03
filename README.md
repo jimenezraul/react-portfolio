@@ -26,8 +26,8 @@ This is a portfolio built with React and tailwindsCSS. Includes About Me, Projec
 
 ![](/src/assets/img/about-light.png)
 ![](/src/assets/img/about-dark.png)
-![](/src/assets/img/projects-light.png)
-![](/src/assets/img/projects-dark.png)
+![](/src/assets/img/portfolio-light.png)
+![](/src/assets/img/portfolio-dark.png)
 ![](/src/assets/img/contact-light.png)
 ![](/src/assets/img/contact-dark.png)
 ![](/src/assets/img/resume-light.png)
