@@ -115,7 +115,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
                   currentSelect === "About Me"
                   ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
                   : "dark:text-gray-400 text-gray-700"
-                } inline py-2 pr-4 pl-3 hover:decoration-1 hover:text-white hover:bg-gray-400 hover:rounded md:border-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+                } w-full py-2 pr-4 pl-3 hover:decoration-1 hover:text-white hover:bg-gray-400 hover:rounded md:border-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
                 aria-current="page"
               >
                 About Me
@@ -128,7 +128,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
                   currentSelect === "Portfolio"
                     ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
                     : "dark:text-gray-400 text-gray-700"
-                } inline py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+                } w-full py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
               >
                 Portfolio
               </button>
@@ -141,7 +141,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
                   currentSelect === "Contact"
                   ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
                   : "dark:text-gray-400 text-gray-700"
-                } inline py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded  md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+                } w-full py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded  md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
               >
                 Contact
               </button>
@@ -154,7 +154,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
                   currentSelect === "Resume"
                   ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
                   : "dark:text-gray-400 text-gray-700"
-                } inline py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+                } w-full py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
               >
                 Resume
               </button>
