@@ -31,7 +31,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
   }
 
   return (
-    <nav className="bg-gray-200 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800">
+    <nav className="bg-gray-300 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://flowbite.com" className="flex items-center">
           <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white text-gray-600">
@@ -42,7 +42,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
           type="button"
           data-toggle-dark="light"
           onClick={handleDarkMode}
-          className="flex items-center p-2 mr-2 text-xs font-medium text-gray-700 bg-gray-300 rounded-lg border border-gray-200 toggle-dark-state-example hover:bg-gray-400 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-500 dark:bg-gray-900 focus:outline-none dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+          className="flex items-center p-2 mr-2 text-xs font-medium text-gray-700 bg-gray-200 rounded-lg border border-gray-200 toggle-dark-state-example hover:bg-gray-400 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-500 dark:bg-gray-800 focus:outline-none dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
         >
           <svg
             data-toggle-icon="moon"
@@ -113,9 +113,9 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
                 onClick={() => setCurrentSelect("About Me")}
                 className={`${
                   currentSelect === "About Me"
-                    ? "bg-gray-300 dark:bg-gray-600 dark:text-white rounded"
-                    : "dark:text-gray-400"
-                } inline py-2 pr-4 pl-3 text-gray-700 hover:decoration-1 hover:bg-gray-300 hover:rounded md:border-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+                  ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
+                  : "dark:text-gray-400 text-gray-700"
+                } inline py-2 pr-4 pl-3 hover:decoration-1 hover:text-white hover:bg-gray-400 hover:rounded md:border-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
                 aria-current="page"
               >
                 About Me
@@ -126,9 +126,9 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
                 onClick={() => setCurrentSelect("Portfolio")}
                 className={`${
                   currentSelect === "Portfolio"
-                    ? "bg-gray-300 dark:bg-gray-600 dark:text-white rounded"
-                    : "dark:text-gray-400"
-                } inline py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-300 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+                    ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
+                    : "dark:text-gray-400 text-gray-700"
+                } inline py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
               >
                 Portfolio
               </button>
@@ -139,9 +139,9 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
                 onClick={() => setCurrentSelect("Contact")}
                 className={`${
                   currentSelect === "Contact"
-                    ? "bg-gray-300 dark:bg-gray-600 dark:text-white rounded"
-                    : "dark:text-gray-400"
-                } inline py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-300 md:border-0 hover:rounded  md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+                  ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
+                  : "dark:text-gray-400 text-gray-700"
+                } inline py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded  md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
               >
                 Contact
               </button>
@@ -152,9 +152,9 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
                 onClick={() => setCurrentSelect("Resume")}
                 className={`${
                   currentSelect === "Resume"
-                    ? "bg-gray-300 dark:bg-gray-600 dark:text-white rounded"
-                    : "dark:text-gray-400"
-                } inline py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-300 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+                  ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
+                  : "dark:text-gray-400 text-gray-700"
+                } inline py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
               >
                 Resume
               </button>

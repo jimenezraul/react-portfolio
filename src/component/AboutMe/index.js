@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../img/profile.jpg";
+import profile from "../../assets/img/profile.jpg";
 
 const AboutMe = () => {
   return (
@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div className="flex flex-row flex-wrap justify-center">
           <div className="flex w-full md:w-5/12 justify-center md:justify-end md:pr-3 md:border-r border-gray-300 dark:border-gray-500">
             <img
-              className="mr-4 rounded-full h-64 w-64 border-2 dark:border-gray-500 mb-3"
+              className="mr-4 rounded-full h-64 w-64 border-4 shadow-sm border-white dark:border-gray-500 mb-3"
               src={profile}
               alt="Profile"
             />

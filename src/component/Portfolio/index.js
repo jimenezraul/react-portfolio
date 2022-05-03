@@ -1,7 +1,7 @@
 import React from "react";
-import ims from "../../img/ims.png";
-import coinhiz from "../../img/coinhiz.jpg";
-import runbuddy from "../../img/run-buddy.jpg";
+import ims from "../../assets/img/ims.png";
+import coinhiz from "../../assets/img/coinhiz.jpg";
+import runbuddy from "../../assets/img/run-buddy.jpg";
 
 const Portfolio = () => {
   const portfolio = [
