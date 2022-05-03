@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.e71f72f0.css",
-    "main.js": "/static/js/main.05f69456.js",
+    "main.js": "/static/js/main.83349640.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/run-buddy.jpg": "/static/media/run-buddy.79b3c21769af0d0125fd.jpg",
     "static/media/about-dark.png": "/static/media/about-dark.b22f16f91e38aee9fef1.png",
     "static/media/ims.png": "/static/media/ims.9fa3c59f618c17263798.png",
     "static/media/profile.jpg": "/static/media/profile.7ad733fe7c0ec6cf28a6.jpg",
+    "static/media/thetechblog.png": "/static/media/thetechblog.29651312457bb23df789.png",
     "static/media/coinhiz.jpg": "/static/media/coinhiz.9558667a2fdc785755db.jpg",
+    "static/media/quiz.png": "/static/media/quiz.05cef39bc06a2929637e.png",
     "static/media/resume.pdf": "/static/media/resume.126bbd50d50b9fff6626.pdf",
     "index.html": "/index.html",
     "main.e71f72f0.css.map": "/static/css/main.e71f72f0.css.map",
-    "main.05f69456.js.map": "/static/js/main.05f69456.js.map",
+    "main.83349640.js.map": "/static/js/main.83349640.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e71f72f0.css",
-    "static/js/main.05f69456.js"
+    "static/js/main.83349640.js"
   ]
 }
