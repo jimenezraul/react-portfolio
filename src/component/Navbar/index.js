@@ -33,9 +33,10 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
   return (
     <nav className="bg-gray-300 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="https://flowbite.com" className="flex items-center">
+        <a href="/" className="flex items-center">
+        <i class="dark:text-white text-gray-600 pr-2 text-2xl fas fa-briefcase"></i>
           <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white text-gray-600">
-            My Portfolio
+            Raul
           </span>
         </a>
         <button
