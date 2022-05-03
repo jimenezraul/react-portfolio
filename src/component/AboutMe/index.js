@@ -18,9 +18,7 @@ const AboutMe = () => {
               Hi, I'm <span className="text-blue-500">Raul!</span>
             </h1>
             <p className="text-center text-xl pl-5 pr-5 md:pr-9">
-              Full Stack Developer with experience in HTML, CSS, JavaScript,
-              React, NodeJS, ExpressJS, Bootstrap, and Tailwind CSS, RESTful
-              API, Django, NoSQL and MySQL. Expert in the implementation of
+              Full Stack Developer with experience in HTML5, CSS3, MERN, MVC, Bootstrap, Tailwind CSS and MySQL. Expert in the implementation of
               interactive websites, with focus on the user experience and web
               performance.
             </p>
