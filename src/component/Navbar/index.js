@@ -110,7 +110,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium justify-center">
             <li>
               <button
-                onClick={() => setCurrentSelect("About Me")}
+                onClick={() => { setCurrentSelect("About Me");  setIsOpen(false); }}
                 className={`${
                   currentSelect === "About Me"
                   ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
@@ -123,7 +123,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
             </li>
             <li>
               <button
-                onClick={() => setCurrentSelect("Portfolio")}
+                onClick={() => {setCurrentSelect("Portfolio"); setIsOpen(false);}}
                 className={`${
                   currentSelect === "Portfolio"
                     ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
@@ -136,7 +136,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
             <li>
               <button
                 href="/"
-                onClick={() => setCurrentSelect("Contact")}
+                onClick={() => {setCurrentSelect("Contact"); setIsOpen(false);}}
                 className={`${
                   currentSelect === "Contact"
                   ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"
@@ -149,7 +149,7 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
             <li>
               <button
                 href="/"
-                onClick={() => setCurrentSelect("Resume")}
+                onClick={() => {setCurrentSelect("Resume"); setIsOpen(false);}}
                 className={`${
                   currentSelect === "Resume"
                   ? "text-gray-700 bg-gray-200 dark:bg-gray-600 dark:text-white rounded"

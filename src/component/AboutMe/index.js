@@ -14,6 +14,9 @@ const AboutMe = () => {
             />
           </div>
           <div className="w-full md:w-7/12 my-auto text-gray-700 dark:text-gray-200">
+            <h1 className="text-4xl font-bold text-center">
+              Hi, I'm <span className="text-blue-500">Raul!</span>
+            </h1>
             <p className="text-center text-xl pl-5 pr-5 md:pr-9">
               Full Stack Developer with experience in HTML, CSS, JavaScript,
               React, NodeJS, ExpressJS, Bootstrap, and Tailwind CSS, RESTful
